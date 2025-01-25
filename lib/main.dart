@@ -3,6 +3,12 @@ import 'package:flutter/material.dart';
 
 //import 'package:musicapp/pages/music_page.dart';
 import 'package:musicapp/pages/player_screen.dart';
+//import 'package:musicapp/pages/loging_page.dart';
+// import 'package:musicapp/pages/sign_up_page.dart';
+// import 'package:musicapp/pages/main_page.dart';
+// import 'package:musicapp/page.dart';
+// import 'package:musicapp/pages/page_test.dart';
+// import 'package:musicapp/pages/page_test2.dart';
 
 // hellow world test
 
@@ -15,8 +21,13 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
+      // home: PageTest(),
+      // // home: PageTest2(),
+      // home: MainPage(),
+      // home: SignUpPage(),
+      //home: LogingPage(),
       title: 'Music App',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),

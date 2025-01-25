@@ -41,6 +41,10 @@ dependencies:
   audioplayers: ^6.0.0 
   file_picker: ^8.0.6
   path_provider: ^2.1.4
+  http: ^1.2.2
+  file_picker: ^8.0.0+1
+  path_provider: ^2.1.4
+
 
 dev_dependencies:
   flutter_test:
@@ -84,6 +88,9 @@ flutter:
     - assets/Sonu_Nigam/Sun_Zara.mp3
 
   #   - images/a_dot_ham.jpeg
+    - assets/background.png
+    - assets/artist.png
+
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
